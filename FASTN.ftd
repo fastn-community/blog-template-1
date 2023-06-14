@@ -4,16 +4,16 @@
 favicon: /-/fastn-community.github.io/blog-template-1/favicon.ico
 
 
--- fastn.dependency: fastn-community.github.io/doc-site as ds
--- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: fastn-community.github.io/set-1-ds as ds
+
 
 -- fastn.auto-import: ds
--- fastn.auto-import: fastn-community.github.io/blog-template-1/FASTN/my-ds
+-- fastn.auto-import: fastn-community.github.io/blog-template-1/FASTN/my-ds as my-ds
 -- fastn.auto-import: fastn-community.github.io/blog-template-1/assets
 
 
 -- fastn.sitemap:
 
-# Home Page: /
+# Home: /
 
-- Page with Right Sidebar: /sidebar/
+## Sample Post: /blog-articles/sample-post/
