@@ -8,7 +8,7 @@ favicon: /-/fastn-community.github.io/blog-template-1/favicon.ico
 
 
 -- fastn.auto-import: ds
--- fastn.auto-import: fastn-community.github.io/blog-template-1/FASTN/my-ds as my-ds
+-- fastn.auto-import: fastn-community.github.io/blog-template-1/FASTN/my-ds
 -- fastn.auto-import: fastn-community.github.io/blog-template-1/assets
 
 

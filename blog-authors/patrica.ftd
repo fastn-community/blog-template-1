@@ -1,4 +1,4 @@
--- import: fastn-community.github.io/blog-template-1 as ds
+-- import: fastn-community.github.io/blog-template-1 as blog
 -- import: fastn-community.github.io/blog-template-1/assets
 -- import: fastn-community.github.io/blog-template-1/common 
 
@@ -21,7 +21,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 -- my-ds.page: 
 sidebar: false
 
--- ds.author-bio: 
+-- blog.author-bio: 
 author: $patrica
 
 -- end: my-ds.page
