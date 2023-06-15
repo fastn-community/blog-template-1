@@ -4,8 +4,8 @@
 favicon: /-/fastn-community.github.io/blog-template-1/favicon.ico
 
 
--- fastn.dependency: fastn-community.github.io/doc-site as ds
--- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: fastn-community.github.io/midnight-rush as ds
+
 
 -- fastn.auto-import: ds
 -- fastn.auto-import: fastn-community.github.io/blog-template-1/FASTN/my-ds
@@ -14,6 +14,6 @@ favicon: /-/fastn-community.github.io/blog-template-1/favicon.ico
 
 -- fastn.sitemap:
 
-# Home Page: /
+# Home: /
 
-- Page with Right Sidebar: /sidebar/
+## Sample Post: /blog-articles/sample-post/
