@@ -20,22 +20,22 @@ cta-primary-url: blog-articles/sample-post/
 -- posts: Must Read Articles
 
 -- post-article:
-post-data: $sample-post.meta
+post-data: $sample-post.meta-1
+
+-- post-article:
+post-data: $sample-post.meta-1
+
+-- post-article:
+post-data: $sample-post.meta-1
+
+-- post-article:
+post-data: $sample-post.meta-1
 
 -- post-article:
 post-data: $sample-post.meta
 
 -- post-article:
-post-data: $sample-post.meta
-
--- post-article:
-post-data: $sample-post.meta
-
--- post-article:
-post-data: $sample-post.meta
-
--- post-article:
-post-data: $sample-post.meta
+post-data: $sample-post.meta-1
 
 -- end: posts
 
@@ -181,7 +181,7 @@ height: fill-container
 
 -- ftd.column:
 anchor: parent
-bottom.px: -10
+bottom.px: 83
 right.px: 100
 border-radius.px: 4
 max-width.fixed.percent: 38
@@ -1093,7 +1093,7 @@ padding-horizontal.px: 12
 
 -- ftd.row:
 spacing.fixed.px: 32
-max-width.fixed.percent: 60
+max-width.fixed.percent: 70
 width: fill-container
 color: $inherited.colors.text-strong
 
