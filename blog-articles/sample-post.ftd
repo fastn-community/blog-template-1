@@ -103,7 +103,6 @@ eu.
 -- ds.image:
 src: $assets.files.static.article.image-4.svg
 
-
 -- ds.image:
 src: $assets.files.static.article.image-3.svg
 
