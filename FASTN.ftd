@@ -1,19 +1,19 @@
 -- import: fastn
 
--- fastn.package: <user_name>.github.io/<repo_name>
-favicon: /-/<user_name>.github.io/<repo_name>/favicon.ico
+-- fastn.package: fastn-community.github.io/blog-template-1
+favicon: /-/fastn-community.github.io/blog-template-1/favicon.ico
 
 
--- fastn.dependency: fastn-community.github.io/doc-site as ds
--- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: fastn-community.github.io/midnight-rush as ds
+
 
 -- fastn.auto-import: ds
--- fastn.auto-import: <user_name>.github.io/<repo_name>/FASTN/my-ds
--- fastn.auto-import: <user_name>.github.io/<repo_name>/assets
+-- fastn.auto-import: fastn-community.github.io/blog-template-1/FASTN/my-ds
+-- fastn.auto-import: fastn-community.github.io/blog-template-1/assets
 
 
 -- fastn.sitemap:
 
-# Home Page: /
+# Home: /
 
-- Page with Right Sidebar: /sidebar/
+## Sample Post: /blog-articles/sample-post/
