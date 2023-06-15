@@ -11,23 +11,31 @@
 
 -- ftd.image-src site-logo: $assets.files.static.ipsum-logo.svg
 
+
+
+
+
+-- pr.sitemap-data footer-toc:
+$processor$: pr.full-sitemap
+
+
+
+
+
+
 -- record social-media:
 ftd.image-src src:
 string link: /
 
-
-
-
-
 -- social-media list share:
+
+
+
 
 
 -- record tags-list:
 caption title:
 string tag-link:
-
-
-
 
 -- tags-list list tag:
 
@@ -37,6 +45,8 @@ string tag-link:
 tag-link: blog/
 
 -- end: topic
+
+
 
 
 
@@ -64,6 +74,8 @@ tags-list list tags:
 
 
 
+
+
 -- social-media list share-links:
 
 -- social-media:
@@ -84,8 +96,7 @@ src: $assets.files.static.ball.svg
 
 -- end: share-links
 
--- pr.sitemap-data footer-toc:
-$processor$: pr.full-sitemap
+
 
 
 
