@@ -1,6 +1,7 @@
 -- import: ds
 -- import: fastn-community.github.io/blog-template-1/common
 -- import: fastn-community.github.io/blog-template-1 as blog
+-- import: fastn-community.github.io/blog-template-1-cs as cs
 
 
 
@@ -20,6 +21,7 @@ ftd.image-src site-logo: $common.site-logo
 optional string site-url: $common.site-url
 boolean full-width: false
 boolean blog: false
+ftd.color-scheme colors: $cs.main
 ftd.ui list hero:
 
 -- ds.page: $page.title
@@ -37,6 +39,7 @@ blog: $page.blog
 hero: $page.hero
 github-url: https://github.com/fastn-community/blog-template-1/
 github-icon: true
+colors: $page.colors
 
 -- ds.page.footer:
 
