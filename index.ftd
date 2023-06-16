@@ -23,19 +23,19 @@ cta-primary-url: blog-articles/sample-post/
 post-data: $sample-post.meta-1
 
 -- post-article:
-post-data: $sample-post.meta-1
+post-data: $sample-post.meta-2
 
 -- post-article:
 post-data: $sample-post.meta-1
 
 -- post-article:
-post-data: $sample-post.meta-1
-
--- post-article:
-post-data: $sample-post.meta
+post-data: $sample-post.meta-2
 
 -- post-article:
 post-data: $sample-post.meta-1
+
+-- post-article:
+post-data: $sample-post.meta-2
 
 -- end: posts
 
@@ -169,7 +169,6 @@ string posted-on: Posted on
 width: fill-container
 padding-vertical.px: 32
 padding-horizontal.px: 32
-margin-bottom.px: 100
 height.fixed.px: 850
 color: $inherited.colors.text
 
@@ -178,6 +177,8 @@ if: { featured-post-card-desktop.image != NULL }
 src: $featured-post-card-desktop.image
 width: fill-container
 height: fill-container
+max-height.fixed.px: 650
+max-width.fixed.px: 1110 
 
 -- ftd.column:
 anchor: parent
@@ -194,7 +195,7 @@ padding-horizontal.px: 40
 spacing.fixed.px: 8
 align-content: center
 role: $inherited.types.copy-small
-margin-bottom.px: 24
+margin-bottom.px: 8
 link: $featured-post-card-desktop.url
 color: $inherited.colors.text-strong
 
@@ -205,16 +206,16 @@ color: $inherited.colors.text-strong
 -- end: ftd.row
 
 -- ftd.text: $featured-post-card-desktop.title
-role: $inherited.types.button-large
+role: $inherited.types.heading-small
 color: $inherited.colors.text-strong
 style: bold
-margin-bottom.px: 12
+margin-bottom.px: 24
 link: $featured-post-card-desktop.url
 
 -- ftd.row:
 if: { featured-post-card-desktop.cta-primary != NULL }
 border-bottom-width.px: 1
-border-color: $inherited.colors.text-strong
+border-color: $inherited.colors.cta-primary.base
 width.fixed.percent if { !featured-post-card-desktop.mouse-in} : 10
 width.fixed.percent if { featured-post-card-desktop.mouse-in} : 20
 padding-bottom.px: 4
@@ -225,8 +226,8 @@ $on-mouse-enter$: $ftd.set-bool($a = $featured-post-card-desktop.mouse-in, v = t
 $on-mouse-leave$: $ftd.set-bool($a = $featured-post-card-desktop.mouse-in, v = false)
 role: $inherited.types.link
 text-align: center
-color: $inherited.colors.text-strong
-border-color: $inherited.colors.text-strong
+color: $inherited.colors.cta-primary.base
+border-color: $inherited.colors.cta-primary.base
 white-space: nowrap
 
 -- end: ftd.row
@@ -1093,7 +1094,7 @@ padding-horizontal.px: 12
 
 -- ftd.row:
 spacing.fixed.px: 32
-max-width.fixed.percent: 70
+max-width.fixed.percent: 75
 width: fill-container
 color: $inherited.colors.text-strong
 
@@ -1434,7 +1435,7 @@ boolean $hover: false
 -- ftd.column:
 width: fill-container
 align-self: center
-color: $inherited.colors.text-strong
+color: $inherited.colors.background.step-1
 max-width.fixed.px: 1075
 
 -- ftd.column:
@@ -1442,7 +1443,7 @@ width: fill-container
 margin-vertical.px: 50
 padding-vertical.px: 90
 padding-horizontal.px: 16
-background.solid: $inherited.colors.custom.four
+background.solid: $inherited.colors.background.step-2
 align-content: center
 
 -- ftd.text: $search-card.help-info
@@ -1467,18 +1468,19 @@ $search-card.body
 role: $inherited.types.link
 min-width.fixed.px: 87
 text-align: center
-color: $inherited.colors.shadow
-border-color: $inherited.colors.shadow
+color: $inherited.colors.cta-primary.base
+color if { search-card.hover }: $inherited.colors.background.step-1
+border-color: $inherited.colors.cta-primary.base
 padding-vertical.px: 13
 padding-horizontal.px: 28
 link: $search-card.cta-primary-link
 border-radius.px: 32
 white-space: nowrap
-border-width.px: 1
+border-width.px: 2
 $on-mouse-enter$: $ftd.set-bool($a = $search-card.hover, v = true)
 $on-mouse-leave$: $ftd.set-bool($a = $search-card.hover, v = false)
 color if { search-card.hover }: $inherited.colors.custom.six
-background.solid if { search-card.hover }: $inherited.colors.shadow 
+background.solid if { search-card.hover }: $inherited.colors.cta-primary.text
 
 -- end: ftd.column
 

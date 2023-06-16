@@ -5,6 +5,7 @@ favicon: /-/fastn-community.github.io/blog-template-1/favicon.ico
 
 
 -- fastn.dependency: fastn-community.github.io/midnight-rush as ds
+-- fastn.dependency: fastn-community.github.io/blog-template-1-cs
 
 
 -- fastn.auto-import: ds
