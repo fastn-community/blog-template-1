@@ -47,7 +47,7 @@ doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
 
 
 
--- my-ds.page:
+-- ds.page:
 full-width: true
 
 -- blog.post: 
@@ -220,4 +220,4 @@ src: $assets.files.static.article.image-5.svg
 -- blog.search-card: Ready to make the jump?
 help-info: Sign up in 2 minutes
 
--- end: my-ds.page
+-- end: ds.page

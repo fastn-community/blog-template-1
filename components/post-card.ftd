@@ -1,11 +1,11 @@
--- import: fastn-community.github.io/navy-nebula/components
--- import: fastn-community.github.io/navy-nebula/blog-articles/sample-post 
+-- import: fastn-community.github.io/blog-template-1/components
+-- import: fastn-community.github.io/blog-template-1/blog-articles/sample-post 
 
 
 -- ds.page: post-article
 document-title: fastn blog Template. Build Your Own Website with Ease
-document-description: Simple, easy-to-use navy-nebula template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
-document-image: https://fastn-community.github.io/navy-nebula/-/fastn-community.github.io/navy-nebula/assets/navy-nebula-og-image.jpg
+document-description: Simple, easy-to-use blog-template-1 template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
+document-image: https://fastn-community.github.io/blog-template-1/-/fastn-community.github.io/blog-template-1/assets/blog-template-1-og-image.jpg
 sidebar: true
 
 -- ds.page.right-sidebar:
