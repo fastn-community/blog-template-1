@@ -4,12 +4,11 @@
 favicon: /-/fastn-community.github.io/blog-template-1/favicon.ico
 
 
--- fastn.dependency: fastn-community.github.io/midnight-rush as ds
+-- fastn.dependency: fastn-community.github.io/midnight-rush 
 -- fastn.dependency: fastn-community.github.io/blog-template-1-cs
 
-
--- fastn.auto-import: ds
--- fastn.auto-import: fastn-community.github.io/blog-template-1/FASTN/my-ds
+-- fastn.dependency: fastn-community.github.io/bling
+-- fastn.auto-import: fastn-community.github.io/blog-template-1/FASTN/ds
 -- fastn.auto-import: fastn-community.github.io/blog-template-1/assets
 -- fastn.auto-import: fastn-community.github.io/blog-template-1/common
 
