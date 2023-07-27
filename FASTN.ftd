@@ -15,18 +15,21 @@ favicon: /-/fastn-community.github.io/blog-template-1/favicon.ico
 
 -- fastn.sitemap:
 
-# Home: /
-
-## Sample Post: /blog-articles/sample-post/
-
+# Blog: index.html
 
 # Docs: /components/
 - Components: /components/
   - author-bio: /components/author-bio/
+  skip: true
+  - featured-post: /components/featured-post/
   skip: true
   - post: /components/post/
   skip: true
   - post-card: /components/post-card/
   skip: true
   - posts: /components/posts/
+  skip: true
+  - search-card: /components/search-card/
+  skip: true
+  - topic: /components/topic/
   skip: true
