@@ -1,7 +1,6 @@
 
--- import: fastn-community.github.io/blog-template-1/common
 -- import: fastn-community.github.io/blog-template-1-cs 
--- import: fastn-community.github.io/blog-template -1
+-- import: fastn-community.github.io/blog-template-1
 export: featured-post, post, posts, post-card, footer, search-card, topic, author-bio, image-first, image-in-between, without-image
 -- import: fastn-community.github.io/midnight-rush
 export: h0, h1, h2, h3, markdown, code, image, link, link-group, toc-title, rendered, letter, letter-data, letter-bar, letter-category, letter-stack
@@ -25,7 +24,7 @@ ftd.image-src site-logo: $common.site-logo
 optional string site-url: $common.site-url
 boolean full-width: false
 boolean blog: false
-ftd.color-scheme colors: $cs.main
+ftd.color-scheme colors: $blog-template-1-cs.main
 ftd.ui list hero:
 
 -- midnight-rush.page: $page.title
