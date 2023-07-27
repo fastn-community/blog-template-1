@@ -1,0 +1,70 @@
+-- import: fastn-community.github.io/blog-template-1/components
+-- import: fastn-community.github.io/blog-template-1/common
+-- import: fastn-community.github.io/bling/collapse
+
+
+
+
+
+-- ds.page: topic
+document-title: fastn blog Template. Build Your Own Website with Ease
+document-description: Simple, easy-to-use blog-template-1 template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
+document-image: https://fastn-community.github.io/blog-template-1/-/fastn-community.github.io/blog-template-1/assets/blog-template-1-og-image.jpg
+sidebar: true
+
+-- ds.page.right-sidebar:
+
+-- components.sidebar-index:
+
+-- end: ds.page.right-sidebar
+
+-- ds.page.body:
+
+Sometimes we want to display a search bar in blog home page. Our
+`blog-template-1` topic feature helps you to create search card.
+
+It's very simple to create your search bar using `-- ds.topic` which
+can be added inside `-- ds.page`.
+
+-- ds.h3: Let's understand above code snippet:
+
+-- collapse.collapse: Importing blog posts meta with `import` 
+remove-gap: true
+
+-- ds.code:
+lang: ftd
+
+\-- import: fastn-community.github.io/blog-template-1/common
+
+-- ds.markdown:
+
+It import `common/index` and its all details from `/common/` folder. 
+
+-- end: collapse.collapse
+
+-- ds.h2: Example:
+
+-- ds.rendered:
+
+-- ds.rendered.input:
+
+\-- ds.topic: Topics
+topics: $common.topic-lists
+
+-- ds.rendered.output:
+
+-- ds.topic: Topics
+topics: $common.topic-lists
+
+-- end: ds.rendered.output
+
+-- end: ds.rendered
+
+-- ds.h3: Let's understand above code snippet:
+
+-- collapse.collapse: `-- ds.topic:`
+remove-gap: true
+
+Its blog-template-1 default topic component.
+
+-- end: ds.page
